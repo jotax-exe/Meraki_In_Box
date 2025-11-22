@@ -10,23 +10,19 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- HEADER -->
   <header>
     <div class="header-content">
       <a href="index.html" class="logo">Meraki Inbox</a>
       
-      <!-- Desktop Navigation -->
       <nav class="nav-desktop">
         <a href="index.html">Início</a>
         <a href="catalogo.html">Catálogo</a>
         <a href="contato.html">Contato</a>
       </nav>
 
-      <!-- Mobile Menu Button -->
       <button class="menu-toggle">☰</button>
     </div>
 
-    <!-- Mobile Navigation -->
     <nav class="nav-mobile">
       <a href="index.html">Início</a>
       <a href="catalogo.html">Catálogo</a>
@@ -34,9 +30,7 @@
     </nav>
   </header>
 
-  <!-- MAIN CONTENT -->
   <main>
-    <!-- HERO SECTION -->
     <section class="hero">
       <div class="container">
         <div class="hero-content">
@@ -46,127 +40,82 @@
       </div>
     </section>
 
-    <!-- CONTACT SECTION -->
-    <section class="bg-background">
+    <section style="padding-bottom: 4rem;">
       <div class="container">
-        <div class="grid grid-cols-2">
-          <!-- FORMULÁRIO -->
+        
+        <div class="grid grid-cols-2 gap-lg">
+          
           <div class="card">
             <div class="card-header">
-              <h3 class="card-title">Envie sua Mensagem</h3>
-              <p class="card-description">Preencha o formulário abaixo e entraremos em contato o mais breve possível.</p>
+              <h3 class="card-title">Outras Formas de Contato</h3>
+              <p class="card-description">Você também pode nos contatar através dos canais abaixo.</p>
             </div>
-            <div style="padding: 0 var(--spacing-lg ) var(--spacing-lg);">
-              <form id="contact-form">
-                <div class="form-group">
-                  <label for="nome" class="form-required">Nome</label>
-                  <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
-                </div>
-
-                <div class="form-group">
-                  <label for="email" class="form-required">Email</label>
-                  <input type="email" id="email" name="email" placeholder="seu@email.com" required>
-                </div>
-
-                <div class="form-group">
-                  <label for="telefone">Telefone</label>
-                  <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
-                </div>
-
-                <div class="form-group">
-                  <label for="mensagem" class="form-required">Mensagem</label>
-                  <textarea id="mensagem" name="mensagem" placeholder="Conte-nos sobre o que você precisa..." required></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary" style="width: 100%; padding: var(--spacing-lg); font-size: 1rem;">Enviar Mensagem</button>
-              </form>
-            </div>
-          </div>
-
-          <!-- INFORMAÇÕES DE CONTATO -->
-          <div>
-            <!-- Card de Contato -->
-            <div class="card" style="margin-bottom: var(--spacing-lg);">
-              <div class="card-header">
-                <h3 class="card-title">Outras Formas de Contato</h3>
-                <p class="card-description">Você também pode nos contatar através dos canais abaixo.</p>
-              </div>
-              <div style="padding: 0 var(--spacing-lg) var(--spacing-lg);">
-                <!-- WhatsApp -->
-                <div class="flex gap-lg" style="margin-bottom: var(--spacing-lg);">
-                  <div style="width: 3rem; height: 3rem; border-radius: 50%; background-color: rgba(107, 127, 92, 0.1); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">📱</div>
-                  <div>
-                    <h4 style="margin: 0 0 0.5rem 0; font-size: 1rem;">WhatsApp</h4>
-                    <a href="https://wa.me/5511999999999" target="_blank">(11 ) 99999-9999</a>
-                  </div>
-                </div>
-
-                <!-- Email -->
-                <div class="flex gap-lg" style="margin-bottom: var(--spacing-lg);">
-                  <div style="width: 3rem; height: 3rem; border-radius: 50%; background-color: rgba(107, 127, 92, 0.1); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">📧</div>
-                  <div>
-                    <h4 style="margin: 0 0 0.5rem 0; font-size: 1rem;">Email</h4>
-                    <a href="mailto:contato@merakiinbox.com">contato@merakiinbox.com</a>
-                  </div>
-                </div>
-
-                <!-- Instagram -->
-                <div class="flex gap-lg" style="margin-bottom: var(--spacing-lg);">
-                  <div style="width: 3rem; height: 3rem; border-radius: 50%; background-color: rgba(107, 127, 92, 0.1); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">📸</div>
-                  <div>
-                    <h4 style="margin: 0 0 0.5rem 0; font-size: 1rem;">Instagram</h4>
-                    <a href="https://www.instagram.com/meraki_inbox/" target="_blank">@meraki_inbox</a>
-                  </div>
-                </div>
-
-                <!-- Localização -->
-                <div class="flex gap-lg">
-                  <div style="width: 3rem; height: 3rem; border-radius: 50%; background-color: rgba(107, 127, 92, 0.1 ); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">📍</div>
-                  <div>
-                    <h4 style="margin: 0 0 0.5rem 0; font-size: 1rem;">Localização</h4>
-                    <p style="color: var(--muted-foreground); margin: 0;">São Paulo, SP</p>
-                  </div>
+            <div style="padding: 0 var(--spacing-lg) var(--spacing-lg);">
+              <div class="flex gap-lg" style="margin-bottom: var(--spacing-lg);">
+                <div style="width: 3rem; height: 3rem; border-radius: 50%; background-color: rgba(107, 127, 92, 0.1); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">📱</div>
+                <div>
+                  <h4 style="margin: 0 0 0.5rem 0; font-size: 1rem;">WhatsApp</h4>
+                  <a href="https://wa.me/5511999999999" target="_blank">(11 ) 99999-9999</a>
                 </div>
               </div>
-            </div>
 
-            <!-- Card de Horário -->
-            <div class="card" style="background-color: var(--secondary);">
-              <div class="card-header">
-                <h3 class="card-title">Horário de Atendimento</h3>
+              <div class="flex gap-lg" style="margin-bottom: var(--spacing-lg);">
+                <div style="width: 3rem; height: 3rem; border-radius: 50%; background-color: rgba(107, 127, 92, 0.1); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">📧</div>
+                <div>
+                  <h4 style="margin: 0 0 0.5rem 0; font-size: 1rem;">Email</h4>
+                  <a href="mailto:contato@merakiinbox.com">contato@merakiinbox.com</a>
+                </div>
               </div>
-              <div style="padding: 0 var(--spacing-lg) var(--spacing-lg);">
-                <div style="display: flex; justify-content: space-between; margin-bottom: var(--spacing-md); font-size: 0.95rem;">
-                  <span style="color: var(--muted-foreground);">Segunda a Sexta:</span>
-                  <span style="font-weight: 600;">9h às 18h</span>
+
+              <div class="flex gap-lg" style="margin-bottom: var(--spacing-lg);">
+                <div style="width: 3rem; height: 3rem; border-radius: 50%; background-color: rgba(107, 127, 92, 0.1); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">📸</div>
+                <div>
+                  <h4 style="margin: 0 0 0.5rem 0; font-size: 1rem;">Instagram</h4>
+                  <a href="https://www.instagram.com/meraki_inbox/" target="_blank">@meraki_inbox</a>
                 </div>
-                <div style="display: flex; justify-content: space-between; margin-bottom: var(--spacing-md); font-size: 0.95rem;">
-                  <span style="color: var(--muted-foreground);">Sábado:</span>
-                  <span style="font-weight: 600;">9h às 14h</span>
-                </div>
-                <div style="display: flex; justify-content: space-between; font-size: 0.95rem;">
-                  <span style="color: var(--muted-foreground);">Domingo:</span>
-                  <span style="font-weight: 600;">Fechado</span>
+              </div>
+
+              <div class="flex gap-lg">
+                <div style="width: 3rem; height: 3rem; border-radius: 50%; background-color: rgba(107, 127, 92, 0.1 ); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0;">📍</div>
+                <div>
+                  <h4 style="margin: 0 0 0.5rem 0; font-size: 1rem;">Localização</h4>
+                  <p style="color: var(--muted-foreground); margin: 0;">São Paulo, SP</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+
+          <div class="card" style="background-color: var(--secondary); height: fit-content;">
+            <div class="card-header">
+              <h3 class="card-title">Horário de Atendimento</h3>
+            </div>
+            <div style="padding: 0 var(--spacing-lg) var(--spacing-lg);">
+              <div style="display: flex; justify-content: space-between; margin-bottom: var(--spacing-md); font-size: 0.95rem;">
+                <span style="color: var(--muted-foreground);">Segunda a Sexta:</span>
+                <span style="font-weight: 600;">9h às 18h</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; margin-bottom: var(--spacing-md); font-size: 0.95rem;">
+                <span style="color: var(--muted-foreground);">Sábado:</span>
+                <span style="font-weight: 600;">9h às 14h</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; font-size: 0.95rem;">
+                <span style="color: var(--muted-foreground);">Domingo:</span>
+                <span style="font-weight: 600;">Fechado</span>
+              </div>
+            </div>
+          </div>
+
+        </div> </div> </section>
   </main>
 
-  <!-- FOOTER -->
   <footer>
     <div class="container">
       <div class="footer-grid">
-        <!-- Sobre -->
         <div class="footer-section">
           <h3>Meraki Inbox - Bolos e Cestas de Café da Manhã</h3>
           <p>Bolos artesanais e cestas de café da manhã preparados com carinho e ingredientes selecionados para tornar seus momentos especiais ainda mais memoráveis.</p>
         </div>
 
-        <!-- Links Rápidos -->
         <div class="footer-section">
           <h3>Links Rápidos</h3>
           <ul>
@@ -176,7 +125,6 @@
           </ul>
         </div>
 
-        <!-- Contato -->
         <div class="footer-section">
           <h3>Contato</h3>
           <div class="footer-contact">
@@ -209,6 +157,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
