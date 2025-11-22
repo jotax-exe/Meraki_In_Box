@@ -144,7 +144,6 @@ header {
   cursor: pointer;
   transition: color 0.3s ease;
 }
-
 .logo:hover {
   color: var(--primary-dark);
 }
@@ -678,3 +677,4 @@ footer {
   }
 
 }
+
