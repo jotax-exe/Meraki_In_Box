@@ -140,7 +140,7 @@ header {
   font-size: 1.875rem;
   font-weight: 700;
   color: var(--primary);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Courier', monospace; /* Alterado aqui */
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -676,4 +676,5 @@ footer {
     padding: var(--spacing-md) var(--spacing-lg);
     font-size: 1rem;
   }
+
 }
